@@ -1,0 +1,242 @@
+.main-header__background--small-height {
+    height: 222px;
+}
+
+.awards__link {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    background-color: #ff7401;
+    background-image: linear-gradient(-103deg, rgba(255, 255, 255, 0.23) 0%, rgba(0, 0, 0, 0.23) 100%);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 31px;
+}
+
+/*----- lightbox -----*/
+.lightbox__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lightbox__link {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    width: 292px;
+    height: 292px;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.lightbox__link:hover .light-box__icon-box {
+    width: 300px;
+    height: 300px;
+}
+
+.lightbox__link--img1 {
+    background-image: url('../img/certyfikat-1.png');
+}
+
+.lightbox__link--img2 {
+    background-image: url('../img/certyfikat-2.png');
+}
+
+.lightbox__link--img3 {
+    background-image: url('../img/certyfikat-3.png');
+}
+
+.lightbox__link--img4 {
+    background-image: url('../img/certyfikat-5.png');
+}
+
+.lightbox__link--img5 {
+    background-image: url('../img/certyfikat-6.png');
+}
+
+.lightbox__link--img6 {
+    background-image: url('../img/certyfikat-8.png');
+}
+
+.light-box__icon-box {
+    border-radius: 50%;
+    background-color: #00000096;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.lightbox__icon {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.lightbox__text-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lightbox__title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*------ contact ------*/
+
+.contact__title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact__link {
+    color: #000;
+}
+
+.contact__form-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact__desc {
+    color: #c0c0c0;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact__input {
+    box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.12);
+    border: 1px solid #d2d2d2;
+    border-radius: 30px;
+    width: 100%;
+    height: 43px;
+    margin: 0 5px 15px 5px;
+    padding: 10px 20px;
+}
+
+.contact__textarea {
+    box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.12);
+    border: 1px solid #d2d2d2;
+    border-radius: 30px;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+}
+
+.contact__submit {
+    background-color: #ff7401;
+    background-image: linear-gradient(-103deg, rgba(255, 255, 255, 0.23) 0%, rgba(0, 0, 0, 0.23) 100%);
+    padding: 10px 34px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact__icon {
+    margin: 0 5px;
+}
+
+
+/*------ about ------*/
+
+
+.about__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__desc {
+    text-align: center;
+    color: #ff5e00;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.about__number {
+    display: block;
+    margin: 0 auto;
+}
+
+.about__cell {
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+/*------ products ------*/
+
+.products__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products__cell {
+    border: 1px solid #d9d9d9;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    position: relative;
+}
+
+.products__cell:hover {
+    color: #000;
+}
+
+.products__title {
+    font-size: 12px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.products__img {
+    position: absolute;
+    transition: 0.5s;
+    top: 26%;
+    filter: invert(41%) sepia(10%) saturate(36%) hue-rotate(345deg) brightness(91%) contrast(90%);
+}
+
+.products__img--higher {
+    top: 19%;
+}
+
+.products__img--hover {
+    filter: invert(55%) sepia(53%) saturate(4100%) hue-rotate(358deg) brightness(100%) contrast(107%);
+    opacity: 0;
+}
+
+.products__cell:hover .products__img--hover {
+    opacity: 1;
+}
+
+.products__btn {
+    padding: 10px 30px;
+    background-color: #ff7401;
+    background-image: linear-gradient(-103deg, rgba(255, 255, 255, 0.23) 0%, rgba(0, 0, 0, 0.23) 100%);
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}

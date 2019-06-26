@@ -1,0 +1,271 @@
+@media (max-width: 1440px) {
+    .main-header__background {
+        background-position: -70%;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+    .main-header__background {
+        background-position: -267px;
+    }
+    .main-header__sm-title {
+        font-size: 25px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+    .navbar {
+        height: unset;
+        min-height: 75px;
+    }
+    
+    .navbar__active {
+        display: none;
+    }
+
+    .nav-item {
+        justify-content: center;
+    }
+    .navbar__separator {
+        display: none;
+    }
+
+
+    .main-header__background {
+        background-position: -418px;
+    }
+    .main-header__sm-title {
+        font-size: 19px;
+    }
+
+
+
+    .my-order-mobile-2 {
+        order: 2;
+    }
+    .my-order-mobile-1 {
+        order: 1;
+    }
+
+
+    .tabs__link {
+        font-size: 14px;
+    }
+
+    .owl-carousel__item .default__text {
+        font-size: 15px;
+    }
+    
+
+
+
+    .main-footer {
+        text-align: center;
+    }
+    .mobile-order-1 {
+        order: 1;
+    }
+    .mobile-order-2 {
+        order: 2;
+    }
+    .mobile-order-3 {
+        order: 3;
+    }
+    .main-footer__column {
+        margin-bottom: 30px;
+    }
+    .main-footer__copyrights {
+        text-align: center;
+        width: unset;
+        position: static;
+        margin: 30px 0 0 0;
+    }
+
+
+
+
+    .contact__row {
+        text-align: center;
+    }
+    .contact__row .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+
+
+    .about__row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about__cell {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+    .main-header__content-box {
+        width: 57%;
+    }
+    .main-header__sm-title {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+    .main-header__button {
+        font-size: 19px;
+    }
+    .main-header__background {
+        background-position: -593px;
+    }
+
+
+
+    .tabs__list {
+        width: 94%;
+    }
+    .owl-carousel__item .default__text {
+        width: 94%;
+        margin-bottom: 21px;
+    }
+    .owl-prev, .owl-next {
+        height: 33px;
+        width: 18px;
+    }
+    .owl-carousel__item .default__text {
+        font-size: 13px;
+    }
+    
+
+
+    .contact__inputs-box {
+        flex-wrap: wrap;
+    }
+    .contact__input {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 647px) {
+    .footer-shape__small-part {
+        display: none;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .navbar__logo-frame {
+        width: 130px;
+    }
+    .navbar__logo-link {
+        bottom: -15px;
+    }
+
+
+
+    .main-header__background {
+        height: 296px;
+    }
+    .main-header__background--small-height {
+        height: 222px;
+    }
+    .main-header__content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .main-header__button-box {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .main-header__content-box {
+        width: 80%;
+    }
+    .main-header__sm-title {
+        font-size: 13px;
+    }
+    .main-header__button {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .main-header__subtitle {
+        font-size: 15px;
+    }
+    .main-header__img-title {
+        width: 232px;
+    }
+
+
+    .default__title {
+        font-size: 25px;
+    }
+    .default__text {
+        font-size: 15px;
+    }
+    
+    
+
+    .tabs__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tabs__link {
+        margin-bottom: 10px;
+    }
+    .tabs__carousel {
+        width: 100%;
+    }
+
+
+
+
+    .awards__frame {
+        margin-left: 10px;
+    }
+    .awards__frame {
+        margin-right: 10px;
+    }
+    .awards {
+        justify-content: center;
+    }
+
+
+
+    .mailing-list {
+        text-align: center;
+    }
+    .mailing-list__form {
+        margin: 0 auto;
+    }
+
+
+
+    
+    .footer-shape__title {
+        font-size: 19px;
+        text-align: center;
+    }
+    .footer-shape {
+        height: unset;
+        min-height: 79px;
+    }
+    
+    .mailing-list__input {
+        width: 100%;
+    }
+
+
+
+    .lightbox__text-container {
+        font-size: 15px;
+    }
+
+
+
+    .about__cell {
+        width: 100%;
+    }
+}
